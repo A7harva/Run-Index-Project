@@ -1,0 +1,14 @@
+-------------------------------RUN INDEX CALCULATOR-------------------------------
+Run Index is the overall T20 impact of a batsman for an inning. This parameter is 
+relevant only for T20 format. It can be obtained for every inning of a player's
+T20 career. The average run index of all innings gives a very good estimate of the
+player's T20 impact. To obtain run index, we have to factor in the runs scored, 
+rate at which the runs were scored, and the fraction of the players runs in the 
+team's total.
+
+Run Index = R * (R/B) * (1 + (R/T))
+
+R = Runs scored
+B = Balls faced
+T = Teams total
+----------------------------------------------------------------------------------
